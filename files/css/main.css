@@ -1,0 +1,302 @@
+body {
+    background: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+
+.container-fluid, .container {
+    max-width: 1200px;
+}
+
+
+/*---------------------
+  Welcome Section
+-----------------------*/
+#welcome-section {
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-image: url("../images/doctor-bg.png");
+}
+
+#welcome-section .overlay{
+    background: linear-gradient(-135deg, rgba(165, 165, 165, 0.45), rgba(165, 165, 165, 0.55));
+}
+
+#welcome-section .title {
+    line-height: 1.5rem;
+    padding: 70px 0px 50px 0px;
+}
+
+#welcome-section .title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000 !important;
+}
+
+#welcome-section .title span{
+    font-size: 1.5rem;
+    font-weight: 400;
+    opacity: .6;
+    color: #000000 !important;
+}
+
+#welcome-section .form-section{
+    background-color: transparent;
+    padding: 30px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+
+#welcome-section .form-section input{
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px 0px #95999c;
+
+}
+
+#welcome-section .form-section .search button{
+    color: #FFFFFF;
+    background-color: rgba(2, 173, 235, 0.91);
+    border: none;
+    font-size: .95rem;
+    font-weight: 600;
+}
+
+
+/*---------------------
+  Hospitals Section
+-----------------------*/
+#hospitals-section {
+    padding: 50px 0px 50px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#hospitals-section .hospitals {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px #95999c;
+    padding:15px;
+    transition: .5s;
+    text-align: left;
+}
+
+#hospitals-section .hospitals:hover {
+    box-shadow: 0px 0px 25px 0px #b2b6b9;
+    background-color: #f9f9f9;
+}
+
+#hospitals-section .hospitals h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #212B35;
+}
+
+#hospitals-section .hospitals .all-info{
+
+
+}
+
+#hospitals-section .hospitals .address, #hospitals-section .hospitals .contact {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #212B35;
+    display: block;
+}
+
+
+/*---------------------
+  Doctors Section
+-----------------------*/
+#doctors-section{
+    padding: 50px 0px 50px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+#doctors-section .doctors {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px #95999c;
+    padding:15px;
+    transition: .5s;
+    text-align: left;
+    color: #000000;
+}
+
+#doctors-section .doctors:hover {
+    box-shadow: 0px 0px 25px 0px #b2b6b9;
+    background-color: #f9f9f9;
+}
+
+#doctors-section .doctors .doctor-info .doctor-img img {
+    width: 75px;
+    height: 75px;
+
+}
+
+#doctors-section .doctors .doctor-info .title {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#doctors-section .doctors .doctor-info .subtitle {
+    display: block;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: .6;
+}
+
+#doctors-section .doctors .doctor-details .details-info {
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: block;
+}
+
+
+
+
+/*----------------------------------
+  About Section
+------------------------------------*/
+.introduction{
+    padding: 60px 10px 100px 10px;
+}
+
+.introduction h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #212B35;
+    margin-bottom: 40px;
+}
+
+.introduction span{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #74787a;
+
+}
+
+.team-member{
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+.team-member img{
+    height: 120px;
+    width: 115px;
+    position: relative;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.team-member .card{
+    border: none;
+    padding: 0;
+    transform: translateY(-22%);
+    position: relative;
+    z-index: 0;
+}
+.team-member .member-info h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4EB8E7;
+    margin-top: 100px;
+    line-height: .8rem;
+}
+
+.team-member .member-info span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #74787a;
+}
+
+.team-member .key-note{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #74787a;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+
+}
+
+.team-member .social{
+    padding: 15px;
+    background-color: #EFF2F5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.team-member .social a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #354554;
+}
+.team-member .social a:hover{
+    color: #4EB8E7;
+}
+
+
+
+/*----------------------------------
+  Admin Page
+------------------------------------*/
+#welcome-section .btns{
+    padding: 25px;
+}
+
+#form-section-hospital{
+    padding: 50px 0px 50px 0px;
+}
+
+#form-section-hospital form{
+    background-color: transparent;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+}
+
+#form-section-hospital form .search button{
+    color: #FFFFFF;
+    background-color: rgba(2, 173, 235, 0.91);
+    border: none;
+    font-size: .95rem;
+    font-weight: 600;
+}
+
+
+
+/*----------------------------------
+  Responsive design for all Section
+------------------------------------*/
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+
+}
+
+
+@media (max-width: 576px) {
+
+}
